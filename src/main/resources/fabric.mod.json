@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "f_refinedstorage",
+  "version": "${version}",
+
+  "name": "Refined Storage - Fabric",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "SkelatorIndy",
+    "Refined Storage Original Creators"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.skelatorindy.f_refinedstorage.RefinedStorage"
+    ]
+  },
+  "mixins": [
+    "f_refinedstorage.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
